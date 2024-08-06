@@ -1,0 +1,19 @@
+.box {
+  margin: 5px;
+  border: 1px solid #888;
+  font-size: 11px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.ball {
+  /* margin: 5px; */
+  background-color: black;
+  border: 1px solid #888;
+  border-radius: 15px;
+  font-size: 11px;
+  text-align: center;
+  line-height: 1.42857;
+  width: 30px;
+  height: 30px;
+}
