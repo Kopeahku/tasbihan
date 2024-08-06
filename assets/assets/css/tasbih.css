@@ -1,0 +1,214 @@
+body.bg1.style1{
+  background-image: url("../img/bg1.jpg");
+  /* background-image: linear-gradient(to right, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%); */
+  /* fallback for old browsers */
+  /* background: #ffbbd1; */
+  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: -webkit-linear-gradient(to right, #ffd0a9, #ffbbd1); */
+  /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: linear-gradient(to right, #ffd0a9, #ffbbd1); */
+}
+
+body.bg2.style2{
+  background-image: url("../img/bgtasbih.png");
+}
+
+body.bg3.style3{
+  background-image: url("../img/bgmecca.png");
+  /* fallback for old browsers */
+    /* background: #d2e8ff; */
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: -webkit-linear-gradient(to right, #d9c8e9, #d2e8ff); */
+    /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: linear-gradient(to right, #d9c8e9, #d2e8ff); */
+}
+
+body.bg4.style4{
+  background-image: url("../img/bg3.jpg");
+}
+
+
+#main{
+  /* fallback for old browsers */
+  /* background: #ddd6f3;   */
+  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: -webkit-linear-gradient(to bottom, #faaca8, #ddd6f3);   */
+  /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: linear-gradient(to bottom, #faaca8, #ddd6f3);  */
+}
+
+#swipe{
+  min-height : 70vh;
+}
+
+.tasbih-wrapper{
+  padding-top: 2em;
+  padding-bottom: 1em;
+} 
+
+#myimage{
+  width : 300px;
+  height : 300px;
+  border-radius: 150px;
+}
+
+#tasbih{
+  padding-top: 3em;
+}
+
+#tasbih img, #tasbih p{
+  margin : 0;
+  line-height: 1em;
+}
+
+#tasbihNumber{
+  position: relative;
+  top : -220px;
+  font-size: 8em;
+}
+#tasbihNumber.contrast{
+  /* text-shadow: 1px 0px 11px rgba(255, 255, 255, 1) !important; */
+  text-shadow : -2px -2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff, 2px 2px 0 #ffffff;
+}
+
+#button-action{
+  postition : sticky;
+  bottom : 10px;
+  /* padding : 50px 0px; */
+}
+
+.btnMute.active{
+  background-color: #e2e2e2;
+  -webkit-transition: background-color 500ms ease;
+  -moz-transition: background-color 500ms ease;
+  -o-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+}
+
+#box-button{
+  padding: 15px 15px;
+  border-radius: 100px;
+}
+
+#box-button.style1{
+  /* fallback for old browsers */
+  background: #dd5e89;  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(170deg, #f7bb97, #dd5e89);  
+  /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(170deg, #f7bb97, #dd5e89); 
+}
+
+#box-button.style2{
+  /* fallback for old browsers */
+  background: #4CA1AF;  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(170deg, #C4E0E5, #4CA1AF);  
+  /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(170deg, #C4E0E5, #4CA1AF); 
+}
+
+#box-button.style3{
+   /* fallback for old browsers */
+   background: #8EC5FC;
+   /* Chrome 10-25, Safari 5.1-6 */
+   background: -webkit-linear-gradient(320deg, #E0C3FC, #8EC5FC);
+   /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background: linear-gradient(320deg, #E0C3FC, #8EC5FC);
+}
+
+#box-button.style4{
+   /* fallback for old browsers */
+   background: #FFFB7D;
+   /* Chrome 10-25, Safari 5.1-6 */
+   background: -webkit-linear-gradient(357deg, #85EDFF, #FFFB7D);
+   /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background: linear-gradient(357deg, #85EDFF, #FFFB7D);
+}
+
+.btn-circle.btn-xl {
+  width: 50px;
+  height: 50px;
+  padding: 10px 10px;
+  border-radius: 35px;
+  font-size: 25px;
+  line-height: 1.33;
+}
+
+.btn-circle {
+  background-color: white; 
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+}
+
+footer{
+  position: fixed;
+  width: parent;
+  bottom: 0;
+  float: left;
+}
+
+/* Iphone 5/SE | Galaxy S5 | Moto G4 */
+@media only screen and (max-width : 360px){
+  #myimage{
+    width : 250px;
+    height : 250px;
+    border-radius: 150px;
+  }
+
+  #tasbihNumber{
+    position: relative;
+    top : -185px;
+    font-size: 7em;
+  }
+
+  #tasbih{
+    padding-top: 1em;
+  }
+
+  .btn-circle.btn-xl {
+    width: 60px;
+    height: 60px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 18px;
+    line-height: 1.33;
+  }
+  
+  .btn-circle {
+    background-color: white; 
+    width: 15px;
+    height: 15px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 9px;
+    line-height: 1.42857;
+  }
+
+}
+
+/* Ipad | Ipad Pro*/
+@media only screen and (min-width : 768px) and (max-width : 1024px ) {
+  #myimage{
+    width : 400px;
+    height : 400px;
+    border-radius: 200px;
+  }
+
+  #tasbihNumber{
+    position: relative;
+    top : -295px;
+    font-size: 12em;
+  }
+
+  #tasbih{
+    padding-top: 4em;
+  }
+
+}
